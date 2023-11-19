@@ -11,20 +11,22 @@ This repository contains Markkus Koddala's internship task for file processing. 
 
 ## Task Requirements
 - Ensure `match_data.txt` and `player_data.txt` files are placed within the `resource` folder.
-- The program will read data from these files and process it accordingly.
-- An `output.txt` file will be created in the `source` folder based on the processed data.
+- The program reads data from these files and processes it accordingly.
+- An `output.txt` file is created in the `source` folder based on the processed data.
 
 ## Running the Program
-1. Ensure Java is installed on your system.
-2. Compile and run the `Main.java` file, which contains the main method.
-    ```bash
-    javac Main.java
-    java Main
-    ```
-3. Check the `source/output.txt` file for the generated output.
+Ensure you have Java installed on your system.
+Run the program from an Integrated Development Environment (IDE) by executing the `Main.java` file, which contains the main method.
+
+## Instructions
+1. Open the project in your preferred IDE.
+2. Locate and open the `Main.java` file.
+3. Run the `Main.java` file, which contains the `main` method.
+4. Verify the output in the `source/output.txt` file within the project directory.
 
 ## Note
-- Make sure to configure the file paths properly in the Java code to match your directory structure.
+- Executing the program from the command line might require adjustments to file paths. For ease of use and correct path resolution, it's recommended to run the program from an IDE.
+- Make sure the project structure and file paths are correctly configured within the IDE for proper execution.
 
 ## Author
 Markkus Koddala
