@@ -23,6 +23,10 @@ Run the program from an Integrated Development Environment (IDE) by executing th
 2. Locate and open the `Main.java` file.
 3. Run the `Main.java` file, which contains the `main` method.
 4. Verify the output in the `source/output.txt` file within the project directory.
+   
+## Handling Invalid Data
+- The program includes error handling to skip processing lines in `match_data.txt` or `player_data.txt` that do not meet specific criteria.
+- When an invalid line is encountered, an error message is displayed in the console, and the program moves to the next line without processing the invalid data.
 
 ## Note
 - Executing the program from the command line might require adjustments to file paths. For ease of use and correct path resolution, it's recommended to run the program from an IDE.
